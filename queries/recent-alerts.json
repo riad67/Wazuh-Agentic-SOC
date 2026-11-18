@@ -1,0 +1,17 @@
+{
+  "size": 10,
+  "sort": [
+    {
+      "timestamp": {
+        "order": "desc"
+      }
+    }
+  ],
+  "query": {
+    "range": {
+      "timestamp": {
+        "gte": "now-24h"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_note": "Synthetic example; not real Wazuh evidence",
+  "hits": {
+    "total": {
+      "value": 1
+    },
+    "hits": [
+      {
+        "_source": {
+          "timestamp": "2026-01-01T00:00:00Z",
+          "agent": {
+            "name": "example-host"
+          },
+          "rule": {
+            "level": 3,
+            "description": "Synthetic audit event"
+          }
+        }
+      }
+    ]
+  }
+}
